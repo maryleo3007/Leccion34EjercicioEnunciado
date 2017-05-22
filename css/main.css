@@ -41,7 +41,21 @@ body{
   background-size: cover;
   bottom: 30px;
 }
-.bonsback{
+.closealert{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: absolute;
+  background-size: cover;
+  z-index: 1000;
+  color: #ffffff;
+  right: 20px;
+  background: none;
+  border: none;
+  background-size: 18px;
+}
+
+.alertTop{
   height: 35px;
   width: 100%;
   background-color: #ED7161;
@@ -54,9 +68,50 @@ body{
   vertical-align: middle;
   padding-top: 7px;
   border-radius: none;
+  z-index: 500;
 }
-.bonsback button{
+.closeAlertTop{
+  display: none;
+}
+.anchorNav{
+  font-weight: 600;
   color: #ffffff;
-  font-size: 26px;
-  cursor: wait;
+
+}
+.anchorNav:hover{
+  color: #3498DB;
+  background-color: transparent!important;
+}
+.header-nav{
+  position: absolute;
+  top: 64px;
+  left: 8%;
+}
+.neatlogo{
+  width: 90px;
+  vertical-align: middle;
+}
+.anchorlogo{
+  padding: 0px 28px 0px 0px!important;
+}
+.titleintro{
+  color: #ffffff;
+  position: absolute;
+  top: 164px;
+  left: 5%;
+  text-align: center;
+}
+.titleintro h1{
+  font-size: 5.8rem;
+  font-weight: bold;
+}
+.titleintro h3{
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+  .hero-park{
+    left: -200px;
+  }
 }
