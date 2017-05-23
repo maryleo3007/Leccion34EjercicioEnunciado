@@ -4,12 +4,13 @@ body{
 }
 .div-contenedor-bg{
   width: 100%;
-  height: 700px;
+  height: 660px;
   position: relative;
+  background-color: #F9F9F9;
 }
 .contenedor-bg{
   width: 100%;
-  height: 650px;
+  height: 630px;
   background-color: #9ACCEF;
 }
 .hero-bg{
@@ -23,14 +24,14 @@ body{
   width: 260px;
 	height: 316px;
 	position: absolute;
-  bottom: 16px;
+  bottom: -14px;
   left: 10%;
 }
 .hero-bench{
   width: 148px;
   height: 66px;
   position: absolute;
-  bottom: 16px;
+  bottom: -14px;
   left: 70%;
 }
 .hero-castle{
@@ -39,7 +40,7 @@ body{
 	position: absolute;
   background-position: center center;
   background-size: cover;
-  bottom: 30px;
+  bottom: -28px;
 }
 .closealert{
   width: 20px;
@@ -97,7 +98,7 @@ body{
 .titleintro{
   color: #ffffff;
   position: absolute;
-  top: 164px;
+  top: 190px;
   left: 5%;
   text-align: center;
 }
@@ -109,9 +110,106 @@ body{
   font-size: 2.1rem;
   font-weight: bold;
 }
+.btn-primary{
+  background-color: #3498DB!important;
+  border-radius: 35px;!important;
+  padding: 14px 42px!important;
+  border: none;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-top: 28px;
+}
+.sectionourGuarantee{
+  background-color: #F9F9F9;
+}
+.diviconourpromise{
+  position: relative;
+  width: 225px;
+  height: 225px;
+  margin: 0 auto 20px;
+  background-color: #FFCC66;
+  border-radius: 50%;
+}
+.icon--step-bond-guarantee,
+.icon--step-quote,
+.icon--step-payment{
+  position: absolute;
+  width: 175px;
+  height: 175px;
+  vertical-align: middle;
+  left: 10%;
+  top:10%;
+  background-size: contain;
+}
+.ourpromise h1, .ourpromise p{
+  font-weight: 600;
+}
+.ourpromise p {
+  line-height: 200%;
+  font-size: 1.55rem;
+}
+.sectionourpromise h1{
+  font-weight: 600;
+  font-size: 4.4rem;
+}
+.sectionourpromise h3{
+  line-height: 150%;
+  font-size: 2.4rem;
+}
+.ourpromise{
+  padding: 100px!important;
+}
+.icon--feature-support{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  
+  background-size: contain;
+}
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 748px) {
   .hero-park{
     left: -200px;
+  }
+  .titleintro img{
+    width: 120px;
+    margin-left: 38%;
+  }
+  .titleintro h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 150%;
+  }
+  .btn-primary{
+    padding: 14px 49px!important;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-top: 28px;
+  }
+  .contenedor-bg{
+    width: 100%;
+    height: 350px;
+  }
+  .div-contenedor-bg{
+    width: 100%;
+    height: 450px;
+  }
+  .hero-bg{
+    top: 40%;
+  	background-position: right bottom;
+  }
+  .hero-park{
+    bottom: -160px;
+    left: -170px;
+  }
+  .hero-bench{
+    bottom: -160px;
+    left: 90%;
+  }
+  .hero-castle{
+    bottom: -160px;
+  }
+  .ourpromise{
+    padding-top: 200px!important;
   }
 }
