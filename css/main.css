@@ -163,10 +163,50 @@ body{
   width: 80px;
   height: 80px;
   position: absolute;
-  
   background-size: contain;
 }
 
+.testimonio_girl{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background: url(../assets/img/testimonials.jpg);
+  background-size: cover;
+  border-radius: 75%;
+}
+.icon--rating-5{
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    background-size: contain;
+}
+.histoty-tertimonio_girl{
+  padding: 3% 9%;
+}
+.testimonio_nic{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background: url(../assets/img/testimonials.jpg);
+    background-size: cover;
+    border-radius: 75%;
+    background-position: center bottom;
+}
+.testimonio_renee{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background: url(../assets/img/testimonials.jpg);
+  background-size: cover;
+  border-radius: 75%;
+  background-position: center 50%;
+}
+#sectionCommunity{
+    background-color: #9ACCEF!important;
+}
+.sectionCommunity h1{
+  color: #ffffff!important;
+}
 @media only screen and (max-width: 748px) {
   .hero-park{
     left: -200px;
@@ -211,5 +251,9 @@ body{
   }
   .ourpromise{
     padding-top: 200px!important;
+  }
+  .histoty-tertimonio_girl{
+    padding: 0% 9%;
+    text-align: center;
   }
 }
